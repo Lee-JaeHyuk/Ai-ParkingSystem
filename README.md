@@ -10,14 +10,16 @@ aParkings-AI System은 RasberryPi 2.0 이 촬영한 영상을 Jetson Nano로 전
 
 ### 2. 프로젝트 개발 환경
 
+
 S/W 개발 환경
-- OS : Window 7
-- IDE : pyCharm, gedit
-- Language : C, Python3
+* - OS : Window 7
+* - IDE : pyCharm, gedit
+* - Language : C, Python3
+
 
 H/W 개발 환경
-- Device : Jeson Nano, Rasberry PI 2.0
-- Commuticate : UDP Socket
-- Language : C, Python3 
+* - Device : Jeson Nano, Rasberry PI 2.0
+* - Commuticate : UDP Socket
+* - Language : C, Python3 
 
 

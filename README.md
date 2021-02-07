@@ -23,18 +23,39 @@ H/W 개발 환경
 
 ### **3. 프로젝트 적용 기술**
 
-UDP Socket 통신
+#### 3-1. UDP Socket 통신
 - PC → Jetson Nano  
 SenTerm에서 촬영한 이미지를 SD카드를 통해 PC에 저장 후 PC를 통해 Jetson Nano로 전송
 
 - Jetson Nano → PC  
 이미지 처리에 대한 결과(주차구역 내 주차유무에 대한 정보)를 PC로 전송<br/><br/>
 
-이미지 처리
+#### 3-2.이미지 처리
+- OpenCV
+이미지의 특정 위치(주차구역)를 자른 이미지 파일 저장
+- Yolov3
+자른 이미지 파일이 자동차인지 판단하여 자동차 유무 결정
+자동차 유무에 대한 리스트 저장<br/><br/>
 
-User InterFace
+#### 3-3.User InterFace
+- Pygame
+주차구역에 대한 정보(자동차 유무)가 표시된 주차 도면을 스크린으로 출력
+- Pandas
+주차장 정보 테이블을 데이터 프레임으로 출력<br/><br/>
 
-Qr code
+#### 3-4.Qr code
+- QR code 생성을 도와주는 파이썬 모듈<br/><br/>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -24,20 +24,17 @@ H/W 개발 환경
 ### **3. 프로젝트 적용 기술**
 
 UDP Socket 통신
-- PC → Jetson Nano
-  ∙ SenTerm에서 촬영한 이미지를 SD카드를 통해 PC에 저장 후 PC를 통해 Jetson Nano로 전송
-- Jetson Nano → PC
-  ∙ 이미지 처리에 대한 결과(주차구역 내 주차유무에 대한 정보)를 PC로 전송<br/><br/>
+- PC → Jetson Nano  
+SenTerm에서 촬영한 이미지를 SD카드를 통해 PC에 저장 후 PC를 통해 Jetson Nano로 전송
 
+- Jetson Nano → PC  
+이미지 처리에 대한 결과(주차구역 내 주차유무에 대한 정보)를 PC로 전송<br/><br/>
 
+이미지 처리
 
-- 이미지 처리
+User InterFace
 
-
-- User InterFace
-
-
-- Qr code
+Qr code
 
 
 
